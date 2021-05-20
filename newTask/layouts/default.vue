@@ -1,17 +1,18 @@
 <template lang="pug">
-  div.container
-    header <Navbar />
-    main
-    nuxt
-    footer Подвал
+.container
+  header <Navbar />
+  main
+  nuxt
+  footer
 </template>
 
 <script>
-import Navbar from '../components/Navbar.vue'
+/* eslint-disable */
+import Navbar from "../components/Navbar.vue";
 
 export default {
   components: {
     Navbar,
   },
-}
+};
 </script>

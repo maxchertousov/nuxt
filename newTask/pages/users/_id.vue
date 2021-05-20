@@ -1,14 +1,12 @@
 <template>
   <div>
-    Номер ID {{ $route.params.id }}
+    <!-- Номер ID {{ $route.params.id }} -->
 
-    <h2>{{ user.data.first_name }}</h2>
+    <img :src="user.data.avatar" alt="">
 
-    <span>{{ user.data.last_name }}</span>
+    <h2>{{ user.data.first_name }} {{ user.data.last_name }}</h2>
 
-    <span>{{ user.data.email }}</span>
-
-    <pre>{{ user }}</pre>
+    <p>{{ user.data.email }}</p>
   </div>
 </template>
 
